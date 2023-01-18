@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+header {
+  height: 80px;
+  background:black;
+  width:100%;
+}
+
+.logo {
+  width: 50%;
+  margin-left: 20px;
+  float: left;
+  line-height: 80px;
+}
+
+.logo a {
+  font-size: 20px;
+  font-family: Verdana;
+  color:rgb(255, 255, 255);
+  letter-spacing: 2px;
+  text-decoration: none;   
+
+}
+.logo a:hover {
+  font-size: 20px;
+  font-family: Verdana;
+  color:rgb(243, 224, 176);
+  letter-spacing: 2px;
+  text-decoration: none;   
+
+}
+
+nav{
+  float: right;
+  margin-right: 20px;
+  line-height: 80px;
+}
+
+nav a {
+  font-family: Verdana;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: wheat;
+  text-decoration: none;   
+}
+nav a:hover {
+  color: white;
+  background:rgb(231, 194, 108);
+  text-decoration: none; 
+}
+
+.banner-area {
+  width: 100%;
+  height: 300px;
+  top: 80px;
+  background-image: url("Pics/cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.banner-area2{
+  width: 100%;
+  height: 300px;
+  top: 80px;
+  background-image: url("Pics/cover.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper {  
+  
+}
+.content-area1 {
+  position: relative;
+  margin: 50px 200px 50px 200px; 
+}
+.content-area1 a {
+  color:rgb(137, 72, 32);
+}
+.content-area1 a:hover {
+  color: rgb(232, 140, 12);
+}
+
+.content-area1 h2{
+  font-family:Verdana;
+  font-size:20px;
+  text-align: center;
+}
+
+
+.content-area1 p {
+  text-align:justify;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.content-area2{
+  background-color: rgb(221, 173, 168);
+  margin: 50px;
+  padding: 5px;
+}
+.content-area3 {
+  position: relative;
+  margin: 50px 200px 50px 200px; 
+}
+.content-area3 a {
+  color:rgb(137, 72, 32);
+}
+.content-area3 a:hover {
+  color: rgb(232, 140, 12);
+}
+
+.content-area3 h3{
+  font-family: Verdana;
+  font-size:18px;
+  text-align:left;
+}
+
+.content-area3 p {
+  text-align:justify;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+.content-area4 p {
+  position: center;
+  margin: 50px 200px 50px 200px; 
+}
+
+.content-area5 {
+  background-color: #e0dede;
+  padding: 8px;
+  position: relative;
+  margin: 50px 80px 50px 80px; 
+}
+
+.content-area5 a {
+  color: rgb(137, 72, 32);   
+}
+
+.content-area5 a:hover{
+  color: #0a1213;   
+}
+
+.content-area5 h2{
+  font-family:Verdana;
+  font-size:20px;
+  text-align: center;
+}
+
+.content-area5 h3{
+  font-family:Verdana;
+  color:rgb(107, 27, 13);
+  text-align: left;
+  font-size:16px;
+}
+.content-area5 h4{
+  font-family:Verdana;
+  text-align: center;
+  font-size:15px;
+}
+
+.content-area5 p {
+  text-align:left;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.content-area6 p {
+  position: left;
+  text-align: justify;
+  margin: 50px 100px 50px 100px; 
+}
+.btn {
+  background-color: #4c7faf; 
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+}
+
+.btn  a{  
+  color: rgb(255, 255, 255);  
+}
+
+.btn  a:hover{  
+  color: rgb(20, 16, 16);  
+  text-decoration: underline;
+
+}
+
+.content-pic {
+
+    position: center;
+    margin: 50px 200px 50px 200px; 
+    display: center;
+   
+    
+  }
+     
+/*FOOTER*/
+  footer {
+      color: white; 
+      background-color: rgb(5, 5, 5); 
+      text-align: center; 
+      padding: 2px; 
+      font-family: sans-serif; }
+  
+  .contact-icon {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  .contact-icon:hover {
+    color:#f19136;
+  }
+
+  .mail-icon {
+    color: black;
+  }
+  
+  .row {
+    flex-grow:2;
+  }
+
+  #go-to-top-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+  /*Programme*/
+  
+   
+  @media screen and (max-width: 500px) {
+    .logo a {
+      font-size: 10px;
+      letter-spacing: normal;
+        
+    }
+    .logo a:hover {
+      font-size: 10px;
+      letter-spacing: normal;
+   
+    }
+
+    nav a {
+      letter-spacing: normal;
+      font-size: 15px;
+    }
+    .banner-area {
+      width: 485px;
+      height: 150px;
+      top: 80px;
+      background-image: url("Pics/cover.png");
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    .banner-area2{
+      width: 485px;
+      height: 150px;
+      top: 80px;
+      background-image: url("Pics/cover.png");
+      background-size: cover;
+      background-position: center center;
+    }   
+    .content-area1{
+      margin: 30px 30px;
+      text-align: left;
+      font-size: 14px;
+    }
+    .content-area2{
+      margin: 30px 30px;
+      text-align: left;
+      font-size: 14px;
+      padding:4px;
+    }
+    .content-area3{
+      margin: 30px 30px;
+      text-align: left;
+      font-size: 14px;
+    }    
+
+       
+      .content-area5  p {
+      margin: 10px;
+      text-align: justify;
+      font-size: 13px;
+    }
+    .content-area5 h2{
+        font-size: 12px;   
+    }
+    .content-area5 h3{
+      font-size: 12px;  
+    } 
+    .content-area5 h4{
+        font-size: 12px;
+    }
+    .content-pic {
+
+    position: center;
+    margin: 30px 30px; 
+    display: flex;
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .logo a {
+      font-size: 10px;
+      letter-spacing: normal;
+        
+    }
+    .logo a:hover {
+      font-size: 10px;
+      letter-spacing: normal;
+   
+    }
+
+    nav a {
+      letter-spacing: normal;
+      font-size: 15px;
+    }
+    .banner-area {
+      width: 500x;
+      height: 150px;
+      top: 80px;
+      background-image: url("Pics/cover.png");
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    .banner-area2{
+      width: 500px;
+      height: 150px;
+      top: 80px;
+      background-image: url("Pics/cover.png");
+      background-size: cover;
+      background-position: center center;
+    }   
+    .content-area1{
+      margin: 30px;
+      text-align: left;
+      font-size: 14px;
+    }
+    .content-area2{
+      margin: 30px;
+      text-align: left;
+      font-size: 14px;
+      padding:4px;
+    }
+    .content-area3{
+      margin: 30px;
+      text-align: left;
+      font-size: 14px;
+    }        
+    .content-area4 {
+      position: left;
+      font-size: 14px;
+    } 
+    
+    .content-area5{
+      margin: 30px;
+      text-align: left;
+      font-size: 14px;
+    } 
+    .content-area6{
+      margin: 30px;
+      text-align: left;
+      font-size: 14px;
+    } 
+    .content-pic {
+
+        position: center;
+        margin: 30px 30px; 
+        display: flex;
+      }
+  }
+
+  @media screen and (min-width:300px) {
+  .schedule {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows:
+    [tracks] auto
+      [time-0200] 1fr
+      [time-0215] 1fr
+      [time-0230] 1fr
+      [time-0245] 1fr
+      [time-0300] 1fr
+      [time-0315] 1fr
+      [time-0330] 1fr
+      [time-0345] 1fr
+      [time-0400] 1fr
+      [time-0415] 1fr
+      [time-0430] 1fr
+      [time-0445] 1fr
+      [time-0500] 1fr
+      [time-0515] 1fr
+      [time-0530] 1fr
+      [time-0545] 1fr
+      [time-0600] 1fr;    
+
+    grid-template-columns:
+      [times] 3em
+      [track-1-start] 1fr
+      [track-1-end track-2-start] 1fr
+      [track-2-end track-3-start] 1fr
+      [track-3-end];
+    }
+  }
+
+  .session {
+    margin-bottom: 1em;
+  }
+   
+  .time-slot {
+    grid-column: times;
+  }
+}
+.track-slot {
+  display: flex; /* only visible with Grid layout */
+}
+
+.session {
+  padding: .5em;
+  border-radius: 2px;
+  font-size: 14px;
+  box-shadow:
+    rgba(255,255,255,.6) 1px 1px 0,
+    rgba(0,0,0,.3) 4px 4px 0;
+}
+
+.session-title,  
+.session-time,
+.session-institution,
+.session-track,
+.session-presenter,
+.session-title,
+.time-slot {
+  margin: 5px;
+  font-size: 1em;
+}
+
+.session-title a {
+  color: #fff;
+  text-decoration-style: dotted;
+ }    
+}
+
+.track-slot,
+.time-slot {
+  font-weight: bold;
+  font-size:.90em;
+}
+
+.track-1 {
+  background-color: #681a1a;
+  color: #fff;
+}
+
+.track-2 {
+  background-color: #854612;
+  color: #fff;
+}
+
+.track-3 {
+  background-color: #61152c;
+  color: #fff;
+}
+
+.track-4 {
+  background-color: #6c7277;
+  color: #fff;
+}
+
+.track-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  color: #000;
+  box-shadow: none;
+}
+
+.track-slot {
+  font-size: 18px;  
+  font-weight: bold;    
+  
+}
+
+.session {
+  font-size: 16px;  
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .track-slot {
+    font-size: 12px;   
+  }
+  .time-slot{
+    font-size: small;
+  }
+  .session{
+    font-size: 12px;
+  }
+  .session a{
+    text-decoration: none;
+  }
+}
