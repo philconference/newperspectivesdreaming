@@ -272,7 +272,7 @@ nav a:hover {
       width: 485px;
       height: 150px;
       top: 80px;
-      background-image: url("Pics/cover.png");
+      background-image: url("cover.png");
       background-size: cover;
       background-position: center center;
     }
@@ -281,7 +281,7 @@ nav a:hover {
       width: 485px;
       height: 150px;
       top: 80px;
-      background-image: url("Pics/cover.png");
+      background-image: url("cover.png");
       background-size: cover;
       background-position: center center;
     }   
@@ -345,7 +345,7 @@ nav a:hover {
       width: 500x;
       height: 150px;
       top: 80px;
-      background-image: url("Pics/cover.png");
+      background-image: url("cover.png");
       background-size: cover;
       background-position: center center;
     }
@@ -354,7 +354,7 @@ nav a:hover {
       width: 500px;
       height: 150px;
       top: 80px;
-      background-image: url("Pics/cover.png");
+      background-image: url("cover.png");
       background-size: cover;
       background-position: center center;
     }   
